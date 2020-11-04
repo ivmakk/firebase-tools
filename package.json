@@ -1,7 +1,7 @@
 {
-  "name": "firebase-tools",
+  "name": "@ivmakk/firebase-tools",
   "version": "8.14.1",
-  "description": "Command-Line Interface for Firebase",
+  "description": "Command-Line Interface for Firebase (FORK)",
   "main": "./lib/index.js",
   "bin": {
     "firebase": "./lib/bin/firebase.js"
@@ -34,7 +34,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/firebase/firebase-tools.git"
+    "url": "https://github.com/ivmakk/firebase-tools.git"
   },
   "keywords": [
     "cdn",
@@ -51,15 +51,8 @@
   "engines": {
     "node": ">= 8.6.0"
   },
-  "author": "Firebase (https://firebase.google.com/)",
+  "author": "Ivan Makarov <ivan.makarov@mev.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/firebase/firebase-tools/issues"
-  },
-  "homepage": "https://github.com/firebase/firebase-tools",
-  "publishConfig": {
-    "registry": "https://wombat-dressing-room.appspot.com"
-  },
   "nyc": {
     "require": [
       "ts-node/register"

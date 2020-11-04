@@ -34,6 +34,7 @@ var _request = function(options, logOptions) {
 
   options.headers = options.headers || {};
   options.headers["connection"] = "keep-alive";
+  options.followAllRedirects = true;
 
   return new Promise(function(resolve, reject) {
     var req = request(options, function(err, response, body) {
